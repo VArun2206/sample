@@ -8,3 +8,5 @@ def about(request):
     return render(request, 'about.html')
 def book(request):
     return render(request, 'book.html')
+def login(request):
+    return render(request, 'login.html')
