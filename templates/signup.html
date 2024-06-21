@@ -54,7 +54,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mx-auto d-flex justify-content-center">
+            <ul class="navbar-nav  mx-auto ">
               <li class="nav-item">
                 <a class="nav-link" href="/">Home </a>
               </li>
@@ -63,7 +63,11 @@
               </li>
             </ul>
             <div class="user_option">
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
+                <a href="" class="user_link">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </a>
+              <!-- <a class="cart_link" href="#"> -->
+                <!-- <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve"> -->
                   <g>
                     <g>
                       <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
@@ -115,7 +119,12 @@
                   <g>
                   </g>
                 </svg>
-              </a>
+              
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
             </div>
           </div>
         </nav>
@@ -127,29 +136,39 @@
   <!-- book section -->
   <section class="book_section layout_padding">
     <div class="container  d-flex justify-content-center">   
-      <div class="col-6 text-center">
-        <div class="col-12">
+      <div class="row">
+        <div class="col-md-12">
             <div class="heading_container d-flex justify-content-center">
                 <h2 class="text-center">
-                  Login Here
+                  Signup Here
                 </h2>
               </div>
           <div class="form_container">
-            <form action="text">  
-              <div class="col">
+            <form action="">
+                
+              <div class="row g-3">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
                 </div>
                 <div class="col">
-                  <input type="password" class="form-control" placeholder="Password" aria-label="Password">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
                 </div>
+              </div>
+              <div>
+                <input type="email" class="form-control" placeholder="Your Email" />
+              </div>
+              <div>
+                <input type="text" class="form-control" placeholder="Create Username" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Create Password" />
               </div>
               <div class="btn_box d-flex flex-row align-items-end justify-content-around">
                 <button>
-                  <a href="/" class="text-light">Login</a>
+                  Signup
                 </button>
                 <div class="signup">
-                    <p>Don't have an account? <a href="/signup" style="color: #ffbe33; text-decoration: underline;" >Signup</a> </p>
+                    <p>Already a member? <a href="/login" style="color: #ffbe33; text-decoration: underline;" > Login </a> </p>
                 </div>
               </div>
             </form>
@@ -198,7 +217,7 @@
               Feane
             </a>
             <p>
-              Experience the best of fast food with QuickBite Express – where your satisfaction is our priority, whether you're dining in or having it delivered!
+              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
             </p>
             <div class="footer_social">
               <a href="">

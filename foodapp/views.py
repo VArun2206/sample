@@ -10,3 +10,7 @@ def book(request):
     return render(request, 'book.html')
 def login(request):
     return render(request, 'login.html')
+def signup(request):
+    return render(request, 'signup.html')
+def cart(request):
+    return render(request, 'cart.html')
