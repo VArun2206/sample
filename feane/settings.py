@@ -75,8 +75,20 @@ WSGI_APPLICATION = 'feane.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': dj_database_url.config(default=env('DATABASE_URL'))
+# DATABASES = {
+#     'default': dj_database_url.config(default=env('DATABASE_URL'))
+# }
+
+DATABASES ={
+    'default': {
+        'ENIGINE': 'djongo',
+        'NAME': 'django',
+        "CLIENT": {
+            'host': 'mongodb+srv://arunv:truebankai@cluster0.y09tgx1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+            'username': 'arunv',
+            'pasword': 'truebankai',
+        }
+    }
 }
 
 
